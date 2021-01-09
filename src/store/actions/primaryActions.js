@@ -1,0 +1,4 @@
+export const FETCH_PROJS = 'FETCH_PROJS';
+export const FETCH_PROJS_RES = 'FETCH_PROJS_RES';
+export const FETCH_PROJS_ERR = 'FETCH_PROJS_ERR';
+
