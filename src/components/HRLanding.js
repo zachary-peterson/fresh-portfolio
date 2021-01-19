@@ -10,6 +10,8 @@ import cave from '../assets/003.jpg'
 import scene1 from '../assets/004.jpg';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { HRAbout } from './HRAbout';
+import { HRContact } from './HRContact';
+import { HRWork } from './HRWork';
 
 export const HRLanding = () => {
     return (
@@ -20,8 +22,10 @@ export const HRLanding = () => {
             <NavRow />
             <HRDanger />
             <HRAbout />
+            <HRWork />
+            <HRContact />
 
-            <motion.div>
+            <motion.div className='summary-container'>
                 
             </motion.div>
 

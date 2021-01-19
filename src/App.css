@@ -84,6 +84,11 @@ body {
   text-decoration: none;
 }
 
+.row-link a {
+  position: relative;
+  display: block;
+}
+
 .left {
   display: flex;
   flex-direction: column;
@@ -244,13 +249,14 @@ body {
   font-weight: 500;
   text-shadow: 2px 1px #000000;
   border: 5px dashed #ffffff;
+  width: 100%;
 }
 
 .photos {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
-  
+  align-items: center;
 }
 
 .abt-block h3 {
@@ -262,11 +268,6 @@ body {
   border: 10px solid #9a031e;
 }
 
-.photos div {
-  display: flex;
-  flex-direction: column;
-}
-
 .App {
   text-align: center;
 }
@@ -274,6 +275,15 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.projects {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.projects h3 {
+  font-size: 3rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -303,5 +313,13 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+
+  .about{
+    display: flex;
+    flex-direction: row;
   }
 }

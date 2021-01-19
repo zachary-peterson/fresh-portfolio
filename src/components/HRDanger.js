@@ -109,7 +109,7 @@ export const HRDanger = () => {
                         </motion.div>
                     </motion.div>
 
-                    <motion.div className='left'>
+                    <motion.div id='contact' className='left'>
                         <motion.div className='skills-container' variants={banner} initial='init' animate='after'>
                             <motion.h2>Up for a chat?</motion.h2>
                             <motion.ul>
