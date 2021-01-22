@@ -30,7 +30,7 @@ export const HRHeader = () => {
                         <motion.span variants={leterOne} initial='init' animate='after'>o</motion.span>
                         <motion.span variants={leterThree} initial='init' animate='after'>n</motion.span>
                     </motion.h1>
-                    <motion.h3 variants={leterOne} initial='init' animate='after'>Full-Stack Web Developer</motion.h3>
+                    <motion.h3 variants={leterOne} initial='init' animate='after'>Full-Stack Web Developer & Entrepreneur</motion.h3>
 
                     <motion.div className='social' variants={leterOne} initial='init' animate='after'>
                         <FaLinkedin className='social-bttn' size='50px' color="#0e76a8" onClick={() => openInNewTab('https://www.linkedin.com/in/zacharytpeterson/')} /> &nbsp;&nbsp;

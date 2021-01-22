@@ -45,7 +45,7 @@ export const HRDanger = () => {
                                 onClick={() => openInNewTab('https://lambdaschool.com/courses/full-stack-web-development')}>
                                 Full-Stack Web Development</motion.h5>
                                 
-                                <motion.h6>June 2020 - <span>In Progress</span></motion.h6>
+                                <motion.h6>June 2020 - Nov. 2020</motion.h6>
                             </motion.div>
 
                             <motion.div className='cert'>

@@ -8,7 +8,7 @@ export const Landing = () => {
 
     return (
         <motion.section className='container'>
-            <motion.button className='toggle' variants={leterOne} initial='init' animate='after'><FaDice size='50px' /></motion.button>
+            <motion.button className='toggle' variants={leterOne} initial='init' animate='after'></motion.button>
             
             <HRLanding />
             
